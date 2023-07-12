@@ -68,7 +68,6 @@ if clear_button:
     st.session_state['total_cost'] = 0.0
     st.session_state['total_tokens'] = []
     st.session_state["docs_sent"] = []
-    st.session_state["parcs"] = ["jacques_cartier"]
     counter_placeholder.write(f"Total cost of this conversation: ${st.session_state['total_cost']:.5f}")
 
 
