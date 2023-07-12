@@ -1,0 +1,25 @@
+
+PARCS = {
+    "Aiguebelle": "aiguebelle",
+    "Anticosti": "antiscosti",
+    "Bic": "bic",
+    "Fjord-du-Saguenay": "fjord_saguenay",
+    "Frontenac": "frontenac",
+    "Gaspésie": "gaspesie",
+    "Grands-Jardins": "grands_jardins",
+    "Hautes-Gorges-de-la-Rivière-Malbaie": "hautes_gorges_malbaie",
+    "Ile-Bonneaventure-et-du-Rocher-Percé": "ile_bonneaventure",
+    "Iles-de-Bourcherville": "iles_boucherville",
+    "Jacques-Cartier": "jacques_cartier",
+    "Lac-Témiscouata": "lac_temiscouata",
+    "Mont-Mégantic": "mont_megantic",
+    "Mont-Orford": "mont_orford",
+    "Mont-St-Bruno": "mont_st_bruno",
+    "Mont-Tremblant": "mont_tremblant",
+    "Monts-Valin": "monts_valin",
+    "Oka": "oka",
+    "Opémican": "opemican",
+    "Plaisance": "plaisance",
+    "Pointe-Taillon": "pointe_taillon",
+    "Yamaska": "yamaska"
+}
