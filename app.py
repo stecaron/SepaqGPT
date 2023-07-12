@@ -12,9 +12,6 @@ from utils_sepaq import PARCS
 st.set_page_config(page_title="SepaqGPT", page_icon=":robot_face:")
 st.markdown("<h1 style='text-align: center;'>SépaqGPT - l'assistant pour vos randos! 🤖⛰️</h1>", unsafe_allow_html=True)
 
-# Set org ID and API key
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
 configs = {
     "path_embeddings": "./df_embeddings.csv",
     "model_name_embeddings": "text-embedding-ada-002"
@@ -127,6 +124,8 @@ with container:
         st.session_state["openai_api_key"] = os.getenv("OPENAI_API_KEY")
     else:
         st.session_state["openai_api_key"] = api_key
+
+    openai.api_key = api_key
 
     with st.form(key='my_form', clear_on_submit=True):
         user_input = st.text_area("Votre question:", key='input', height=100)
